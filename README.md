@@ -91,12 +91,10 @@ At the end, you get the exact mass estimate and uncertainty.
 
 ```text
 .
-├── docs/
-│   ├── weighing_optimization_pascal_en.pdf    # Full paper (English)
-│   ├── otimizacao_pesagens_pascal_pt.pdf      # Artigo completo (Português)
-└── src/
-    ├── pascal_weighing_en.py                  # CLI assistant & solver (English)
-    └── pesagem_pascal_pt.py                   # Assistente CLI e resolvedor (Português)
+├── weighing_optimization_pascal_en.pdf    # Full paper (English)
+├── otimizacao_pesagens_pascal_pt.pdf      # Artigo completo (Português)
+├── pascal_weighing_en.py                  # CLI assistant & solver (English)
+├── pesagem_pascal_pt.py                   # Assistente CLI e resolvedor (Português)
 ```
 
 ---
