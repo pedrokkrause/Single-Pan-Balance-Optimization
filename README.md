@@ -29,7 +29,7 @@ To cancel the helper masses, the subtraction must be done mathematically after d
 ### 3. The Common Trap
 The intuitive instinct is: *"If I care about A, I should put A on the pan in almost every weighing."*
 
-**This fails.** If you include **A** in 9 out of 10 weighings, the helper objects are never weighed enough among themselves. Their uncertain values leak into **A** through mathematical covariance, **inflating your final error by up to +95%**.
+**This fails.** If you include **A** in 9 out of 10 weighings, the helper objects are never weighed enough among themselves. Their uncertain values leak into **A** through mathematical covariance, **inflating your final error**.
 
 ### 4. The Pascal Recipe
 To prevent this noise leakage with $N$ total objects ($1$ target + $p = N - 1$ helpers), you split your weighings into two opposing blocks based on how many helpers ($r$) accompany the pan:
